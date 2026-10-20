@@ -87,3 +87,14 @@ CRUD:
 - Delete = deleteOne()
 
 Frontend sends requests to Express. Express uses the MongoDB driver to read/write MongoDB. The frontend never connects directly to MongoDB.
+
+
+
+## Git Workflow Demonstration
+
+This project demonstrates:
+- Git initialization and commits
+- Branch creation and switching
+- Remote repository management with GitHub
+- Pushing and pulling changes
+- Merging branches
