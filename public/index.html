@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Todo Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Todo Manager</h1>
+
+<div class="card">
+<h2>Add User</h2>
+<input id="userId" type="number" placeholder="User ID">
+<input id="userName" placeholder="Name">
+<input id="userEmail" placeholder="Email">
+<button onclick="addUser()">Add User</button>
+</div>
+
+<div class="card">
+<h2>Add Task</h2>
+<input id="taskId" type="number" placeholder="Task S.No.">
+<input id="todoUserId" type="number" placeholder="User ID">
+<input id="todoTask" placeholder="Task">
+<input id="description" placeholder="Description">
+<select id="priority"><option>Low</option><option selected>Medium</option><option>High</option></select>
+<input id="category" placeholder="Category">
+<input id="dueDate" type="date">
+<button onclick="addTodo()">Add Task</button>
+</div>
+
+<div class="card">
+<h2>Tasks</h2>
+<div id="todoList"></div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
